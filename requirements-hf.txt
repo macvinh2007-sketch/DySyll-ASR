@@ -1,0 +1,4 @@
+# Install additionally only when exporting Hugging Face dataset.
+-r requirements.txt
+datasets>=3.0
+huggingface_hub>=0.26

@@ -1,3 +1,5 @@
+> **Cập nhật 24/11/2026:** Nếu triển khai trên máy Linux qua Cloudflare SSH và sử dụng dataset `Mihanh27/VietTTS-Quality`, xem **[README_CLOUDFLARE_VI.md](README_CLOUDFLARE_VI.md)**. Cloudflare chỉ là tunnel SSH, không phải máy GPU.
+
 # Bộ train DySyll-ASR khớp sơ đồ 29.898.425 tham số
 
 **Đây là mã chạy/huấn luyện mô hình nghiên cứu từ đầu (random initialization), KHÔNG phải checkpoint ASR đã train.** Bộ này được xây từ file gốc `dysyll_asr.py` mà bạn đã có, với cấu hình khớp **đúng số tham số của sơ đồ**.

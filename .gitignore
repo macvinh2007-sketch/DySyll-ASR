@@ -1,14 +1,32 @@
+# Environments & caches
 .venv/
+venv/
 __pycache__/
-*.pyc
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+# Local configuration / credentials
 .env
+.env.*
+!.env.example
 server/server.env
+*.pem
+*.key
+id_rsa
+id_ed25519
+# Datasets, features, experiments, models
 data/
+data_raw/
 datasets/
+features/
 runs/
 checkpoints/
+outputs/
+dataset_audit.json
 *.pt
 *.pth
 *.ckpt
-*.wav
-*.flac
+*.onnx
+# Miscellaneous temporary files
+.DS_Store
+*.log
