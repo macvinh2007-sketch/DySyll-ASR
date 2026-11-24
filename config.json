@@ -1,0 +1,30 @@
+{
+  "architecture": "diagram_exact_custom_gates",
+  "model": {
+    "n_mels": 80,
+    "n_prosody": 4,
+    "hidden": 1600,
+    "phonetic_dim": 1600,
+    "prosodic_dim": 800,
+    "n_initials": 24,
+    "n_rhymes": 150,
+    "n_tones": 6,
+    "min_segment": 2,
+    "max_segment": 24
+  },
+  "expected_parameters": {
+    "ARF": 2704640,
+    "DDSE_LSC": 19219205,
+    "EMC_SAG": 7974580,
+    "total": 29898425
+  },
+  "training": {
+    "epochs": 12,
+    "lr": 0.0002,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "seed": 42,
+    "save_every": 1,
+    "eval_max_utterances": 80
+  }
+}

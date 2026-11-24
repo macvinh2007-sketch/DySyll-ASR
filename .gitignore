@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+server/server.env
+data/
+datasets/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.wav
+*.flac
